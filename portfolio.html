@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel=“preconnect” href=“https://fonts.googleapis.com” /> <link rel=“preconnect”
-    href=“https://fonts.gstatic.com” crossorigin /> <link
-    href=“https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap”
-    rel=“stylesheet” />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -19,9 +21,11 @@
       </a>
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li class="header-nav-item"><a href="./index.html" class="header-nav-link">Studio</a></li>
           <li class="header-nav-item">
-            <a href="./portfolio.html" class="header-nav-link">Portfolio</a>
+            <a href="./index.html" class="header-nav-link">Studio</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="./portfolio.html" class="header-nav-link header-active-link">Portfolio</a>
           </li>
           <li class="header-nav-item"><a href="" class="header-nav-link">Contacts</a></li>
         </ul>
@@ -36,71 +40,125 @@
       </ul>
     </header>
     <main class="main">
-      <section>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+      <section class="portfolio-nav">
+        <ul class="portfolio-nav-list">
+          <li class="portfolio-nav-item">
+            <button type="button" class="portfolio-btn">All</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button type="button" class="portfolio-btn">Web Site</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button type="button" class="portfolio-btn">App</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button type="button" class="portfolio-btn">Design</button>
+          </li>
+          <li class="portfolio-nav-item">
+            <button type="button" class="portfolio-btn">Marketing</button>
+          </li>
         </ul>
       </section>
-      <section>
-        <ul>
-          <li>
-            <img src="./images/imgbankapp.webp" alt="BankApp" width="360" height="300" />
-            <h3><b>Banking App Interface Concept</b></h3>
-            <p>App</p>
+      <section class="portfolio-products">
+        <ul class="porfolio-products-list">
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imgbankapp.webp"
+              alt="BankApp"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Banking App Interface Concept</b></h3>
+            <p class="portfolio-products-text">App</p>
           </li>
-          <li>
-            <img src="./images/imgphone.webp" alt="CashlessPayment" width="360" height="300" />
-            <h3><b>Cashless Payment</b></h3>
-            <p>Marketing</p>
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imgphone.webp"
+              alt="CashlessPayment"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Cashless Payment</b></h3>
+            <p class="portfolio-products-text">Marketing</p>
           </li>
-          <li>
-            <img src="./images/imgmacbook.webp" alt="Meditaion App" width="360" height="300" />
-            <h3><b>Meditaion App</b></h3>
-            <p>App</p>
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imgmacbook.webp"
+              alt="Meditation App"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Meditation App</b></h3>
+            <p class="portfolio-products-text">App</p>
           </li>
-          <li>
-            <img src="./images/imgcar.webp" alt="Taxi Service" width="360" height="300" />
-            <h3><b>Taxi Service</b></h3>
-            <p>Marketing</p>
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imgcar.webp"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Taxi Service</b></h3>
+            <p class="portfolio-products-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-products-item">
             <img
               src="./images/imgphonescreen.webp"
               alt="Screen Illustrations"
               width="360"
               height="300"
+              class="portfolio-img"
             />
-            <h3><b>Screen Illustrations</b></h3>
-            <p>Design</p>
+            <h3 class="portfolio-products-title"><b>Screen Illustrations</b></h3>
+            <p class="portfolio-products-text">Design</p>
           </li>
-          <li>
-            <img src="./images/imggirl.webp" alt="Online Courses" width="360" height="300" />
-            <h3><b>Online Courses</b></h3>
-            <p>Marketing</p>
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imggirl.webp"
+              alt="Online Courses"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Online Courses</b></h3>
+            <p class="portfolio-products-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-products-item">
             <img
               src="./images/imginststories.webp"
               alt="Instagram Stories"
               width="360"
               height="300"
+              class="portfolio-img"
             />
-            <h3><b>Instagram Stories Concept</b></h3>
-            <p>Design</p>
+            <h3 class="portfolio-products-title"><b>Instagram Stories Concept</b></h3>
+            <p class="portfolio-products-text">Design</p>
           </li>
-          <li>
-            <img src="./images/imgorganicfood.webp" alt="Orgaanic Food" width="360" height="300" />
-            <h3><b>Organic Food</b></h3>
-            <p>Web Site</p>
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imgorganicfood.webp"
+              alt="Organic Food"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Organic Food</b></h3>
+            <p class="portfolio-products-text">Web Site</p>
           </li>
-          <li>
-            <img src="./images/imgcoffee.webp" alt="Fresh Coffee" width="360" height="300" />
-            <h3><b>Fresh Coffee</b></h3>
-            <p>Web Site</p>
+          <li class="portfolio-products-item">
+            <img
+              src="./images/imgcoffee.webp"
+              alt="Fresh Coffee"
+              width="360"
+              height="300"
+              class="portfolio-img"
+            />
+            <h3 class="portfolio-products-title"><b>Fresh Coffee</b></h3>
+            <p class="portfolio-products-text">Web Site</p>
           </li>
         </ul>
       </section>
