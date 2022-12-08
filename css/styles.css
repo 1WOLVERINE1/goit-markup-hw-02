@@ -32,7 +32,6 @@ ol {
 }
 .header-logo {
   font-family: var(--logo-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -50,7 +49,6 @@ ol {
   color: var(--header-logo-color);
 }
 .header-nav-link {
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -65,8 +63,6 @@ ol {
   color: var(--active-link-color);
 }
 .header-contacts-link {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -88,7 +84,7 @@ ol {
   color: #ffffff;
 }
 .hero-btn {
-  font-style: normal;
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.1875;
@@ -107,7 +103,6 @@ ol {
   color: var(--title-text-color);
 }
 .quality-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,7 +139,6 @@ ol {
   color: var(--title-text-color);
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -152,7 +146,7 @@ ol {
   color: var(--side-text-color);
 }
 .portfolio-btn {
-  font-style: normal;
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -178,7 +172,6 @@ ol {
   color: var(--title-text-color);
 }
 .portfolio-products-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -189,7 +182,6 @@ ol {
 }
 .footer-logo {
   font-family: var(--logo-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -203,7 +195,6 @@ ol {
   color: var(--footer-logo-color);
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
